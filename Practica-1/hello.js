@@ -1,4 +1,4 @@
-////////Mi primer programa en node
+//--Mi primer programa en node
 
 console.log("Hola como estas");
 
