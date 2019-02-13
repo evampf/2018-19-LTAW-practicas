@@ -1,3 +1,4 @@
+
 var http = require('http');
 var url = require('url');
 var fs = require('fs');
@@ -14,26 +15,13 @@ http.createServer((req, res) => {
   console.log("Host: " + q.host)
   console.log("pathname:" + q.pathname)
 
-  //-- Obtener el fichero. Si es "/" se toma index.html
-  //-- Poner el "." delante para que sean un fichero del directorio actual
-
   var filename = ""
-
   if (q.pathname == "/")
     filename += "/index.html"
   else {
     filename = q.pathname
   }
-
-  //-- Obtener el tipo de fichero segun la extension
-  tipo = filename.split(".")[1]
-
-  //-- Obtener el nombre del fichero a partir del recurso solicitado
-  //-- Se añade un . delante
   filename = "." + filename
-
-  console.log("Filename: " + filename)
-  console.log("Tipo: " + tipo)
 
   fs.readFile(filename, function(err, data) {
     if (err) {
@@ -41,15 +29,12 @@ http.createServer((req, res) => {
       return res.end("404 Not Found");
     }
 
-    //-- Tipo mime por defecto: html
+    tipo = filename.split(".")[1]
     var mime = "text/html"
+    res.writeHead(200, {'Content-Type': mime});
 
-    //-- Es una imagen
-    if (['png', 'jpg'].includes(tipo)) {
-      console.log("IMAGEN!!!!!")
-      mime = "image/" + tipo
-    }
-
+    if (tipo == "html")
+      mime = "text/html"
     //-- Es un css
     if (tipo == "css")
       mime = "text/css"
@@ -59,5 +44,4 @@ http.createServer((req, res) => {
     res.write(data);
     res.end();
   });
-
 }).listen(8080);
