@@ -1,0 +1,185 @@
+body {
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+audio {
+  float: center;
+}
+
+div{
+  float:center;
+  text-align: center;
+}
+
+.header {
+  background-color: white;
+  color: #1CB7B7;
+  padding: 10px;
+  margin: 30px;
+  text-align: left;
+}
+
+.header a:hover {
+  background-color: white;
+  color: black;
+}
+
+.header a {
+  float: right;
+  color: #1CB7B7;
+  margin: 50px;
+  padding: 10px 12px;
+}
+
+.menu li{
+  text-align: right;
+  display:inline-block;
+  width: 10%;
+}
+
+.menu li:hover {
+  background-color: #1CB7B7;
+}
+/* Style the topnav links */
+.titulo3 {
+  float: center;
+  color: #1CB7B7;
+  margin: 80px;
+  font-size: 40px;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  float:center;
+}
+
+#paris{
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-bottom: 40px;
+  width:200px;
+  height:300px;
+  float:right;
+}
+
+#london{
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-bottom: 40px;
+  width:200px;
+  height:300px;
+  float:right;
+}
+
+#london2{
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+  width:350px;
+  height:300px;
+}
+
+#pisa{
+  margin-top: 70px;
+  margin-right: 70px;
+  margin-bottom: 40px;
+  width:200px;
+  height:300px;
+  float:right;
+}
+
+
+a:link {
+  color: SlateGrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: plum;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: SlateBlue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: PeachPuff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1 {
+  color: gray;
+  text-align: center;
+  font-family: optima, sans-serif;
+  font-size: 30px;
+}
+
+h2{
+  text-align: center;
+  font-family: courier;
+  font-size: 13px;
+}
+
+h3 {
+  color: powderblue;
+  text-align: center;
+  margin-left: 40px;
+  font-family: optima, sans-serif;
+  font-size: 15px;
+}
+
+h6{
+  text-align: left;
+  margin-left: 100px;
+  font-family: optima, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: courier;
+  font-size: 13px;
+}
+
+.end {
+  padding: 10px;
+  text-align: center;
+}
+
+#intro{
+  color: gray;
+}
+
+#guiaparis{
+  text-align: left;
+  margin-left: 100px;
+}
+
+#guialondon{
+  text-align: left;
+  margin-left: 100px;
+}
+
+#guiapisa{
+  text-align: left;
+  margin-left: 100px;
+}
