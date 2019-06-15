@@ -1,9 +1,11 @@
 body {
-  background-repeat: repeat;
   background-size: contain;
 }
 
 audio {
+  float: center;
+}
+video {
   float: center;
 }
 
@@ -13,44 +15,35 @@ div{
 }
 
 .header {
-  background-color: white;
+  background: white;
   color: #1CB7B7;
   padding: 10px;
   margin: 30px;
   text-align: left;
-}
-
-.header a:hover {
-  background-color: white;
-  color: black;
+  width: 20%;
 }
 
 .header a {
-  float: right;
-  color: #1CB7B7;
+  color: white;
   margin: 50px;
   padding: 10px 12px;
 }
 
+
 .menu li{
-  text-align: right;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
   display:inline-block;
-  width: 10%;
+  width: 20%;
 }
 
 .menu li:hover {
   background-color: #1CB7B7;
 }
-/* Style the topnav links */
-.titulo3 {
-  float: center;
-  color: #1CB7B7;
-  margin: 80px;
-  font-size: 40px;
-}
 
 
-.column {
+.columnas {
   float: left;
   width: 30%;
   padding: 15px;
@@ -65,41 +58,6 @@ div{
 
 img {
   float:center;
-}
-
-#paris{
-  margin-top: 70px;
-  margin-right: 70px;
-  margin-bottom: 40px;
-  width:200px;
-  height:300px;
-  float:right;
-}
-
-#london{
-  margin-top: 70px;
-  margin-right: 70px;
-  margin-bottom: 40px;
-  width:200px;
-  height:300px;
-  float:right;
-}
-
-#london2{
-  margin-top: 70px;
-  margin-right: 70px;
-  margin-bottom: 10px;
-  width:350px;
-  height:300px;
-}
-
-#pisa{
-  margin-top: 70px;
-  margin-right: 70px;
-  margin-bottom: 40px;
-  width:200px;
-  height:300px;
-  float:right;
 }
 
 
@@ -134,13 +92,8 @@ h1 {
   font-size: 30px;
 }
 
-h2{
-  text-align: center;
-  font-family: courier;
-  font-size: 13px;
-}
-
-h3 {
+h2 {
+  background-color: white;
   color: powderblue;
   text-align: center;
   margin-left: 40px;
@@ -148,38 +101,9 @@ h3 {
   font-size: 15px;
 }
 
-h6{
-  text-align: left;
-  margin-left: 100px;
-  font-family: optima, sans-serif;
-}
 
 p {
   text-align: center;
   font-family: courier;
   font-size: 13px;
-}
-
-.end {
-  padding: 10px;
-  text-align: center;
-}
-
-#intro{
-  color: gray;
-}
-
-#guiaparis{
-  text-align: left;
-  margin-left: 100px;
-}
-
-#guialondon{
-  text-align: left;
-  margin-left: 100px;
-}
-
-#guiapisa{
-  text-align: left;
-  margin-left: 100px;
 }

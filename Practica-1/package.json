@@ -1,0 +1,21 @@
+{
+  "name": "hello",
+  "description": "Proyecto hola mundo",
+  "keywords": [
+    "ltaw",
+    "test"
+  ],
+  "version": "0.0.1",
+  "author": "Eva María Pérez Fernández",
+  "main": "hello.js",
+  "devDependencies": {},
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evampf/LTAW/Practica_1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -v"
+  }
+}
