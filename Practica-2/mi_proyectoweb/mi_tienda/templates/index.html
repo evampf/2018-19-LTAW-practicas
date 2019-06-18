@@ -1,12 +1,13 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel=StyleSheet href="style.css">
+    <link rel=StyleSheet href="{% static 'style.css'%}">
     <meta name="author" content="Eva María Pérez Fernández">
     <title> PRACTICA 1 - EVA MARIA PEREZ</title>
   </head>
-  <body background=fotoportada.jpg width="">
+  <body background=/static/fotoportada.jpg width="">
     <div class="header" align:"center">
       <h1> <i>KATARSIS</i></h1>
     </div>
@@ -15,7 +16,6 @@
       <li><a href="./pendientes.html">PENDIENTES</a></li>
       <li><a href="./pulseras.html">PULSERAS</a></li>
       <li><a href="./otros.html">ACCESORIOS</a></li>
-      <li><a href="./deinteres.html">DE INTERÉS</a></li>
     </div>
 
 
@@ -23,21 +23,21 @@
       <div class="columnas">
         <h2> PULSERAS</h2>
         <a href="./pulseras.html">
-          <img src="/ASOWuj.png" alt="pulseras" width="270" height="240">
+          <img src="/static/ASOWuj.png" alt="pulseras" width="270" height="240">
         </a>
       </div>
 
       <div class="columnas">
         <h2> PENDIENTES</h2>
         <a href="./pendientes.html">
-          <img src="/pendientes.png" alt="pendientes" width="270" height="240" >
+          <img src="/static/pendientes.png" alt="pendientes" width="270" height="240" >
         </a>
       </div>
 
       <div class="columnas">
         <h2>LLAVEROS Y MARCAPÁGINAS</h2>
         <a href="./otros.html">
-          <img src="/marcapaginas.png" alt="llaveros" width="270" height="240">
+          <img src="/static/marcapaginas.png" alt="llaveros" width="270" height="240">
         </a>
       </div>
     </div>

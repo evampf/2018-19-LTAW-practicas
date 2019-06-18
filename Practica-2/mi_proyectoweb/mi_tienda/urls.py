@@ -19,9 +19,9 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.home_view),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^index', views.home_view),
+    url(r'^list/', views.list),
     url(r'^pulseras', views.pulseras_view),
     url(r'^pendientes', views.pendientes_view),
     url(r'^otros', views.otros_view),
-    url(r'^index', views.home_view),
 ]
