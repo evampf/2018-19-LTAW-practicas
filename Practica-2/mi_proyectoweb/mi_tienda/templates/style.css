@@ -1,0 +1,109 @@
+body {
+  background-size: contain;
+}
+
+audio {
+  float: center;
+}
+video {
+  float: center;
+}
+
+div{
+  float:center;
+  text-align: center;
+}
+
+.header {
+  background: white;
+  color: #1CB7B7;
+  padding: 10px;
+  margin: 30px;
+  text-align: left;
+  width: 20%;
+}
+
+.header a {
+  color: white;
+  margin: 50px;
+  padding: 10px 12px;
+}
+
+
+.menu li{
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+  display:inline-block;
+  width: 20%;
+}
+
+.menu li:hover {
+  background-color: #1CB7B7;
+}
+
+
+.columnas {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  float:center;
+}
+
+
+a:link {
+  color: SlateGrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: plum;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: SlateBlue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: PeachPuff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1 {
+  color: gray;
+  text-align: center;
+  font-family: optima, sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  background-color: white;
+  color: powderblue;
+  text-align: center;
+  margin-left: 40px;
+  font-family: optima, sans-serif;
+  font-size: 15px;
+}
+
+
+p {
+  text-align: center;
+  font-family: courier;
+  font-size: 13px;
+}
