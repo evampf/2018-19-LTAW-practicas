@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mi_tienda',
 ]
 
 MIDDLEWARE = [
@@ -49,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mi_tienda.urls'
+ROOT_URLCONF = 'mi_proyectoweb.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +67,7 @@ TEMPLATES = [
         },
     },
 ]
-WSGI_APPLICATION = 'mi_tienda.wsgi.application'
+WSGI_APPLICATION = 'mi_proyectoweb.wsgi.application'
 
 
 # Database
